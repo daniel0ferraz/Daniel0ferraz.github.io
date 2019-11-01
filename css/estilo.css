@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body,
+.capa {
+    height: 100%;
+    overflow: auto;
+}
+body{
+       overflow-x: hidden;
+       font-family: 'Rubik';
+}
+
+/* Navbar */
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    padding: 10px;
+}
+
+.navbar-brand {
+    padding:  5px 10px;
+}
+.navbar-brand img{
+    height: 40px;
+}
+
+/* .img-logo {
+    height: 40px;
+    background: url('../imagens/code.svg')no-repeat;
+    background-size: contain;
+    color: transparent;
+} */
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
