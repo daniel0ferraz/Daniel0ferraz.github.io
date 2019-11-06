@@ -14,6 +14,8 @@ body,
 body{
        overflow-x: hidden;
        font-family: 'Rubik';
+       background-attachment: fixed;
+       overflow-x: hidden
 }
 
 /* Navbar */
@@ -30,21 +32,37 @@ body{
     height: 40px;
 }
 
-/* .img-logo {
+ .img-logo {
     height: 40px;
     background: url('../imagens/code.svg')no-repeat;
     background-size: contain;
     color: transparent;
-} */
+} 
 
 .capa {
     display: table;
     width: 100%;
-}
+} 
 
 .texto-capa {
     color: #fff;
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+} 
+.texto-capa h2 {
+    color: #000;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.texto-capa span {
+    color: #ff4f51;
+}
+
+.icone i{
+color: #000;
+ font-size: 50px;
 }
