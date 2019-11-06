@@ -21,20 +21,17 @@ body{
 /* Navbar */
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    border-color: #050404;
     padding: 10px;
 }
 
 .navbar-brand {
     padding:  5px 10px;
 }
-.navbar-brand img{
-    height: 40px;
-}
 
  .img-logo {
-    height: 40px;
-    background: url('../imagens/code.svg')no-repeat;
+    height: 50px;
+    background: url('../imagens/logo2.png')no-repeat;
     background-size: contain;
     color: transparent;
 } 
