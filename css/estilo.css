@@ -31,7 +31,6 @@ body{
 
  .img-logo {
     height: 50px;
-    background: url('../imagens/logo2.png')no-repeat;
     background-size: contain;
     color: transparent;
 } 
