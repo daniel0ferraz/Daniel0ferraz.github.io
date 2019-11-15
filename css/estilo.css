@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
 html,
 body,
 .capa {
     height: 100%;
     overflow: auto;
 }
-body{
-       overflow-x: hidden;
-       font-family: 'Rubik';
-       background-attachment: fixed;
-       overflow-x: hidden
+
+body {
+    overflow-x: hidden;
+    font-family: 'Rubik';
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -26,39 +29,108 @@ body{
 }
 
 .navbar-brand {
-    padding:  5px 10px;
+    padding: 5px 10px;
 }
 
- .img-logo {
+.img-logo {
     height: 45px;
     background-size: contain;
     color: transparent;
-} 
+}
 
-.capa {
-    display: table;
-    width: 100%;
-} 
-
-.texto-capa {
-    color: #fff;
+.box-capa {
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-} 
-.texto-capa h2 {
-    color: #000;
-    font-size: 80px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
+    box-shadow: 0px 1px 1px 1px #ddd;
+    margin-top: 85px;
+    border-radius: 5px;
+
 }
-.texto-capa span {
-    color: #ff4f51;
+.fundo {
+background: url('../imagens/artificial.jpg') no-repeat center  ;
+background-size: cover;
+color: #fff;
 }
 
-.icone i{
-color: #000;
- font-size: 40px;
+/* Img-box */
+.img-box {
+    padding: 20px;
+    height: 100%;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
 }
+.img-box>img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px solid rgba(170, 170, 170, 0.349);
+}
+.img-box>h2,p{
+   text-shadow: 2px 2px 3px #000;
+}
+ .btn-custom {
+     color: #000;
+     background-color: #fff;
+     border: none;
+ }
+.btn-group{
+    padding-bottom: 5px;
+}
+.btn-group > i{
+    padding-right: 5px;
+    font-size: 19px;
+}
+.btn-group>a {
+   font-weight: bold;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-linkedin{
+    color: #2867B2;
+}
+
+/* proheto */
+section.portfolio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.titulo{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.titulo h2{
+    border-left: 4px solid #fa5e6d;
+    padding-left: 2px;
+       color: #414244;
+       font-weight: 700;
+}
+
+.box {
+    box-shadow: 0px 1px 1px 1px #ddd;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    margin: 0px 0px 10px 0px;
+   
+}
+
+.icon {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #363738;
+}
+
+.texto
+ {
+    padding: 2px;
+}
+.texto h1{
+    font-size: 16px;
+    text-align: center;
+}
+
