@@ -15,9 +15,7 @@ body,
 }
 
 body {
-    overflow-x: hidden;
     font-family: 'Rubik';
-    background-attachment: fixed;
     overflow-x: hidden;
 }
 
@@ -41,7 +39,7 @@ body {
 .box-capa {
     text-align: center;
     box-shadow: 0px 1px 1px 1px #ddd;
-    margin-top: 85px;
+    margin-top: 69px;
     border-radius: 5px;
 
 }
@@ -54,15 +52,14 @@ color: #fff;
 /* Img-box */
 .img-box {
     padding: 20px;
-    height: 100%;
     width: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(138, 131, 131, 0.4);
     text-align: center;
 }
 .img-box>img {
     margin: 0 auto;
     border-radius: 50%;
-    border: 4px solid rgba(170, 170, 170, 0.349);
+    border: 4px solid rgba(177, 177, 177, 0.13);
 }
 .img-box>h2,p{
    text-shadow: 2px 2px 3px #000;
@@ -95,19 +92,24 @@ color: #fff;
 }
 
 /* proheto */
-section.portfolio{
-    padding-top: 20px;
+section.portfolio,section.habilidades,section.blog{
+    padding-top: 10px;
     padding-bottom: 20px;
+
 }
 .titulo{
-    padding-bottom: 10px;
-    padding-top: 10px;
+    
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
 }
 .titulo h2{
-    border-left: 4px solid #fa5e6d;
-    padding-left: 2px;
-       color: #414244;
-       font-weight: 700;
+      border-left: 4px solid #f36977;
+      padding-left: 2px;
+      color: #414244;
+       font-weight: 600;
+       text-transform: uppercase;
+       font-size: 24px;
 }
 
 .box {
@@ -119,6 +121,7 @@ section.portfolio{
 }
 
 .icon {
+   
     padding: 20px;
     text-align: center;
     font-size: 30px;
@@ -134,4 +137,7 @@ section.portfolio{
     font-size: 16px;
     text-align: center;
 }
+/* blog */
+.img-post>img {
 
+}
