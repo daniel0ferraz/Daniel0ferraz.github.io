@@ -25,6 +25,9 @@ body {
     border-color: #050404;
     padding: 10px;
 }
+.navbar-nav>li>a>i{
+    padding-right: 3px;
+}
 
 .navbar-brand {
     padding: 5px 10px;
